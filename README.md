@@ -30,3 +30,9 @@ Crear un archivo llamado .env con los siguientes datos:
 
 ## Más información
 Te dejo el link a un video explicando cómo crear migraciones: https://youtu.be/M8DAJMxs70U
+<br>
+Cómo validar datos: https://youtu.be/5hRO2AXe4bY
+<br>
+Cómo hacer un manejo básico de errores: https://youtu.be/Ua7khncnlQY
+
+
