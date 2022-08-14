@@ -1,5 +1,3 @@
-const Joi = require('joi') // importar Joi para validar los datos de entrada
-
 module.exports = (scheme) => {
 
     return (req, res, next) => {
