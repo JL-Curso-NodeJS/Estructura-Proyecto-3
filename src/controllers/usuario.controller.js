@@ -28,7 +28,7 @@ module.exports = {
                     id: req.params.idUsuario
                 }
             })            
-            // if(!user) return next(errors.UsuarioInexistente)
+            if(!user) return next(errors.UsuarioInexistente)
 
             res.json({
                 success: true,
