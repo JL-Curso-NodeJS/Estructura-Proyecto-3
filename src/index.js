@@ -17,7 +17,7 @@ const configuracionRouter = (app) => { // configurar las rutas
   app.use('/api/', routerConfig.rutas_init()) // para acceder a las rutas de la api siempre deberá empezar con /api/
 
 
-  app.use(function (req, res, next) { 
+  app.use(function (req, res, next) {
     next(createError(404)) // si no se encuentra la ruta, se envia un error 404
   })
   app.use(errorHandler) // configurar el middleware de manejo de errores

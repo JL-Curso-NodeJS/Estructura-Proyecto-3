@@ -11,6 +11,14 @@ module.exports = {
     'UsuarioInexistente': {
         code: 1002,
         message: 'El usuario no existe'
+    },
+    'PacienteInexistente': {
+        code: 1003,
+        message: 'El paciente no existe'
+    },
+    'MedicoInexistente': {
+        code: 1004,
+        message: 'El medico no existe'
     }
 
 
