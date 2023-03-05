@@ -7,10 +7,12 @@ const globalConstants = require('./const/globalConstants.js') // importar el arc
 let errorHandler = require('./middlewares/error')
 let createError = require('http-errors') // se utiliza para crear un error personalizado
 
+const logger = require('morgan')
+
 const configuracionApi = (app) => { // configurar la api
   app.use(express.json()) // para que la api pueda recibir json
   app.use(express.urlencoded({ extended: true })) // para que la api pueda recibir formularios
-
+  app.use(logger('dev'))
 };
 
 const configuracionRouter = (app) => { // configurar las rutas
